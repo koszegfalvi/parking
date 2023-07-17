@@ -1,4 +1,4 @@
-public class Cars extends ParkingPlace {
+public class Cars  {
 public String type;
 public int maxPeopleInside;
 
@@ -6,6 +6,8 @@ public int maxPeopleInside;
         this.type = type;
         this.maxPeopleInside = maxPeopleInside;
     }
+
+
 
     public String getType() {
         return type;
