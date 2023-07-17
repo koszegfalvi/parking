@@ -1,19 +1,19 @@
 public class Cars  {
-public String type;
+public Cars type;
 public int maxPeopleInside;
 
-    public Cars(String type, int maxPeopleInside) {
+    public Cars(Cars type, int maxPeopleInside) {
         this.type = type;
         this.maxPeopleInside = maxPeopleInside;
     }
 
 
 
-    public String getType() {
+    public Cars getType() {
         return type;
     }
 
-    public void setType(String type) {
+    public void setType(Cars type) {
         this.type = type;
     }
 
